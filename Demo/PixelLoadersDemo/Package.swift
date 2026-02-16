@@ -5,6 +5,7 @@ import PackageDescription
 let package = Package(
     name: "PixelLoadersDemo",
     platforms: [
+        .iOS(.v16),
         .macOS(.v13)
     ],
     dependencies: [
