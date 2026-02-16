@@ -93,9 +93,6 @@ struct DemoView: View {
             }
             .padding(24)
         }
-        #if os(macOS)
-        .frame(minWidth: 400, minHeight: 600)
-        #endif
     }
 
     // MARK: - Helpers
